@@ -1,0 +1,17 @@
+# Git除外ファイル指定
+# トークンなどの重要な設定情報があるため除外する。
+config.rb
+# 前バージョンの互換のため残しているファイルも除外ファイル
+config.txt
+
+# システムが自動作成するファイルは除外する
+Thumbs.db
+.DS_Store
+
+# テスト用(除外する)
+test.rb
+
+# bundleでできるやつも除外
+Gemfile.lock
+/vendor/bundle
+/.bundle
